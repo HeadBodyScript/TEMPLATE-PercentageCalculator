@@ -1,0 +1,2 @@
+tellraw @a ["",{"text":"Download latest version here "},{"text":">Click<","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/iheadbodyscript/"}},{"text":"\n\nTLDR:\nThe boss bar will display the players current and max health\nThe name is dynamic and will update based on the players current health and max health\nOn your right you will see the players % health\n\nNote:\nThis is made to be tested in a single player world, this may or may not work in a multiplayer world"}]
+bossbar set minecraft:health players @s
